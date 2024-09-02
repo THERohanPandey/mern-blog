@@ -32,7 +32,10 @@ export default function Header() {
           <FaMoon />
         </Button>
         <Link to="/sing-in">
-          <Button className="bg-gradient-to-r from-green-500 to-red-500">
+          <Button
+            className="bg-gradient-to-r from-green-500 to-red-500"
+            outline
+          >
             Sing In
           </Button>
         </Link>
