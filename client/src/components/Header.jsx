@@ -31,12 +31,12 @@ export default function Header() {
         <Button className="w-12 h-10 hidden sm:inline" color="gray" pill>
           <FaMoon />
         </Button>
-        <Link to="/sing-in">
+        <Link to="/sign-in">
           <Button
             className="bg-gradient-to-r from-green-500 to-red-500"
             outline
           >
-            Sing In
+            Sign In
           </Button>
         </Link>
         <Navbar.Toggle />
